@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Button from 'react-bootstrap/Button';
 
 export default props => {
 
@@ -26,7 +27,10 @@ export default props => {
 
     return (
         <div>
-            <button onClick={e => {generateRandomNumber(props.number)}}>{props.name}</button>
+            <Button
+             variant="primary"
+             onClick={e => {generateRandomNumber(props.number)}}>{props.name}
+            </Button>
         </div>
     )
 }

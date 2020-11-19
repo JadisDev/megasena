@@ -1,7 +1,11 @@
 import React from 'react'
+import Badge from 'react-bootstrap/Badge'
 
 export default props => {
     return (
-        <h2>{props.number}</h2>
+        <Badge className="space" variant="success">{props.number}</Badge>
     )
 }
+
+//34,05
+//11,39

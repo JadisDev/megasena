@@ -1,9 +1,10 @@
 import React from 'react'
+import Form from 'react-bootstrap/Form'
 
 export default props => {
     return (
         <div>
-            <label>{props.name}</label>
+            <Form.Label>{props.name}</Form.Label>
         </div>
     )
 }
